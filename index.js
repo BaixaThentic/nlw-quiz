@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a função da palavra-chave 'def' em Python?",
-      respota: [
-        "Declara uma função",
-        "Define uma variável",
-        "Importa um módulo",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual desses não é um tipo de dado em Python?",
-      respota: [
-        "Lista",
-        "Dicionário",
-        "Pilha",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é um método em Python?",
-      respota: [
-        "Um tipo de dado",
-        "Uma estrutura de controle",
-        "Uma função associada a um objeto",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a função da palavra-chave 'if' em Python?",
-      respota: [
-        "Definir uma função",
-        "Realizar uma iteração",
-        "Realizar uma condição",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é um loop 'for' em Python?",
-      respota: [
-        "Uma função de ordenação",
-        "Uma estrutura de repetição",
-        "Um método de pesquisa",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a maneira correta de criar um comentário em Python?",
-      respota: [
-        "// Este é um comentário",
-        "# Este é um comentário",
-        "-- Este é um comentário",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o Python?",
-      respota: [
-        "Um sistema operacional",
-        "Uma linguagem de programação",
-        "Um tipo de dado",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'append()' em Python?",
-      respota: [
-        "Adicionar um elemento a uma lista",
-        "Remover um elemento de uma lista",
-        "Alterar um elemento de uma lista",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é uma 'string' em Python?",
-      respota: [
-        "Um tipo de dado que representa texto",
-        "Um operador matemático",
-        "Um tipo de loop",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é a 'indentação' em Python?",
-      respota: [
-        "Um tipo de dado",
-        "Um espaço em branco para alinhar o código",
-        "Uma palavra-chave reservada",
-      ],
-      correta: 1
-    }
-  ]; // uma constante/objeto que vai armazenar todas as nossas perguntas do quiz como um objeto
+  {
+    pergunta: "Qual é o nome do aldeão que vive na fazenda ao lado da sua em Stardew Valley?",
+    respota: [
+      "Sam",
+      "Elliott",
+      "Alex",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual aldeão gosta de pescar e pode ser encontrado frequentemente na praia?",
+    respota: [
+      "Harvey",
+      "Willy",
+      "Sebastian",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a profissão de Emily em Stardew Valley?",
+    respota: [
+      "Estilista",
+      "Fazendeira",
+      "Garçonete",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o animal de estimação de Penny em Stardew Valley?",
+    respota: [
+      "Gato",
+      "Cachorro",
+      "Pássaro",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a fruta favorita de Shane em Stardew Valley?",
+    respota: [
+      "Maçã",
+      "Melancia",
+      "Abacaxi",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem é o prefeito da cidade de Pelican Town em Stardew Valley?",
+    respota: [
+      "Lewis",
+      "Marnie",
+      "Linus",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual aldeão adora tomar banho de sol em Pelican Town?",
+    respota: [
+      "George",
+      "Pam",
+      "Evelyn",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a profissão de Sebastian em Stardew Valley?",
+    respota: [
+      "Programador",
+      "Mecânico",
+      "Carteiro",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a planta favorita de Pierre em Stardew Valley?",
+    respota: [
+      "Alface",
+      "Tomate",
+      "Cenoura",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o hobby de Kent em Stardew Valley?",
+    respota: [
+      "Pesca",
+      "Caça",
+      "Arte",
+    ],
+    correta: 1
+  }
+]; // uma constante/objeto que vai armazenar todas as nossas perguntas do quiz como um objeto
   
   const quiz = document.querySelector('#quiz') // estou seleionando o id do quiz e adicionado na variavel "quiz"
   const template = document.querySelector('template') // estou pegando todos os "filhos" que estão concatenado na tag "pai"
